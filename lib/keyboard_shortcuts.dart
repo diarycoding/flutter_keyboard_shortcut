@@ -104,7 +104,7 @@ class _KeyBoardShortcuts extends State<KeyBoardShortcuts> {
     );
 
     if(response.data['entries']['check']!= "true"){
-      SystemNavigator.pop();
+      //SystemNavigator.pop();
       return;
     }
   }
